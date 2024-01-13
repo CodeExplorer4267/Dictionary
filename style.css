@@ -143,10 +143,14 @@ p.word-example{
         height:64vh
     }
     button#search{
-        width:10vw;
+        width:14vw;
     }
     div.input{
-        width:40vw;
+        width:44vw;
+        margin-left:6px;
+    }
+    #input{
+        width:27vw;
     }
     h1{
         margin-top:12px;
