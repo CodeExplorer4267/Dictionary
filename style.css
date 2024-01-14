@@ -141,8 +141,7 @@ p.word-example{
     .container{
         width:50vw;
         height:70vh;
-        margin-top: 30px;
-
+        margin-top: 0px;
     }
     button#search{
         width:14vw;
