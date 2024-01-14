@@ -140,7 +140,9 @@ p.word-example{
 @media screen and (max-width:600px){
     .container{
         width:50vw;
-        height:64vh
+        height:70vh;
+        margin-top: 30px;
+
     }
     button#search{
         width:14vw;
@@ -151,6 +153,7 @@ p.word-example{
     }
     li{
         font-size: 14px;
+        padding-left:0px;
     }
     div.details{
         font-size: 12px;
@@ -163,6 +166,9 @@ p.word-example{
     }
     p.word-exaple{
         margin-bottom:22px;
+    }
+    p.word-meaning{
+        line-height: 17px;
     }
 }
 
