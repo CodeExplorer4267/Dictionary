@@ -63,14 +63,14 @@ div.input{
     border-radius: 50%;
     box-shadow: 0px 0px 20px 5px aqua;
     animation:animate 7s linear infinite;
-    animation-duration: calc(106s/var(--i));
+    animation-duration: calc(150s/var(--i));
 }
 .bubbles span:nth-child(even){
     background-color: rgb(255, 0, 0);
     box-shadow: 0px 0px 20px 5px rgb(255, 0, 0),
     0px 0px 8px 2px rgb(255, 0, 0);
     animation:animate 7s linear infinite;
-    animation-duration: calc(91s/var(--i));
+    animation-duration: calc(150s/var(--i));
 }
 @keyframes animate{
     0%{
@@ -148,6 +148,12 @@ p.word-example{
     div.input{
         width:44vw;
         margin-left:6px;
+    }
+    li{
+        font-size: 14px;
+    }
+    div.details{
+        font-size: 12px;
     }
     #input{
         width:27vw;
